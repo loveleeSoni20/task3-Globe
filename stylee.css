@@ -1,0 +1,290 @@
+body{
+    margin:0px;
+    background-color: rgba(211, 211, 211, 0.579);
+}
+
+.main{
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction:column;  
+    gap:25px;
+    height: 100%;
+    padding: 10px 20px;
+    width: 400px;
+    background-color: white;
+    /* position: relative;
+    top:0px;
+    left:0px; */
+    /* z-index:2; */
+
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.div_two{
+    font-size: 25px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+
+.inner_div{
+    padding:0px 15px;
+    display:flex;
+    flex-direction: row;
+    /* background-color: red; */
+    border-radius: 15px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner_divv{
+    /* color:white; */
+    padding:0px 15px;
+    display:flex;
+    flex-direction: row;
+    background-color:rgb(26, 252, 177);
+    border-radius: 15px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+}
+
+.div_three{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(211, 211, 211, 0.366) ;
+    height: 400px;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+.text{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.percn_one{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.g_one{
+    height:5px;
+    background-color: rgb(26, 252, 177);
+    width: 70%;
+}
+
+.g_two{
+    height:5px;
+    background-color: rgb(26, 252, 177);
+    width: 80%;
+}
+
+.g_three{
+    height:5px;
+    background-color: rgb(26, 252, 177);
+    width: 40%;
+}
+
+.g_four{
+    height:5px;
+    background-color: rgb(26, 252, 177);
+    width: 60%;
+}
+
+.g_five{
+    height:5px;
+    background-color: rgb(26, 252, 177);
+    width: 50%;
+}
+
+.percn{
+    background-color: red;
+    height:5px;
+}
+
+.div_four{
+    font-size: 25px;
+}
+
+.one{
+    color:rgb(4, 224, 151);
+}
+
+.two{
+    color:red;
+}
+.maincontent{
+    padding:0px 60px;
+    height: 100%;
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height:150px;
+    padding:0px 40px;
+    /* background-color: red; */
+    font-size: 40px;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.923);
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap     ;
+    gap:50px;
+}
+
+.margin{
+    margin-top: 120px;
+}
+
+.imagee{
+
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.overlay1{
+    position: absolute;
+    top:590px;
+    left:430px;
+    background-color: rgb(4, 224, 151);
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.overlay2{
+    position: absolute;
+    top:590px;
+    left:830px;
+    background-color: rgb(4, 224, 151);
+    height: 30px;
+    width: 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.overlay3{
+    position: absolute;
+    top:590px;
+    left:1230px;
+    background-color: rgb(4, 224, 151);
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.overlay4{
+    position: absolute;
+    top:590px;
+    left:1630px;
+    background-color: rgb(4, 224, 151);
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.overlay_1{
+    position: absolute;
+    top:1165px;
+    left:430px;
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.overlay_2{
+    position: absolute;
+    top:1165px;
+    left:830px;
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.overlay_3{
+    position: absolute;
+    top:1165px;
+    left:1230px;
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+} 
+
+.overlay_4{
+    position: absolute;
+    top:1165px;
+    left:1630px;
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
